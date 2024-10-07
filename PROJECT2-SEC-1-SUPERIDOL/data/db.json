@@ -1,0 +1,501 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "userName": "User1",
+      "email": "user1@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "1",
+      "userName": "User2",
+      "email": "user2@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "2",
+      "userName": "Godefvt",
+      "email": "gode@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "3",
+      "userName": "itsamxy",
+      "email": "itsamxy@email.com",
+      "password": "testtest"
+    },
+    {
+      "id": "4",
+      "userName": "User3",
+      "email": "user1@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "5",
+      "userName": "User4",
+      "email": "user2@email.com",
+      "password": "12345"
+    },
+    {
+      "id": "6",
+      "userName": "SniperA",
+      "email": "porama.jira@gmail.com",
+      "password": "focusjira"
+    },
+    {
+      "id": "7",
+      "userName": "test333",
+      "email": "test333@email.com",
+      "password": "12345"
+    }
+  ],
+  "usersProfile": [
+    {
+      "id": "0",
+      "userName": "User1",
+      "rankingHighScore": 0,
+      "completeAchievement": [],
+      "profileConfig": {
+        "effectVolume": 0,
+        "musicVolume": 0,
+        "showAchievementBadge": [
+          null,
+          null,
+          null
+        ]
+      },
+      "totalScore": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalTimePlay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "customLevel": []
+    },
+    {
+      "id": "1",
+      "userName": "User2",
+      "rankingHighScore": 1,
+      "completeAchievement": [],
+      "profileConfig": {
+        "effectVolume": 0,
+        "musicVolume": 0,
+        "showAchievementBadge": [
+          null,
+          null,
+          null
+        ]
+      },
+      "totalScore": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalTimePlay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "customLevel": [],
+      "customMode": []
+    },
+    {
+      "id": "2",
+      "userName": "Godefvt",
+      "rankingHighScore": 50,
+      "completeAchievement": [],
+      "profileConfig": {
+        "effectVolume": 2,
+        "musicVolume": 2,
+        "showAchievementBadge": [
+          null,
+          null,
+          null
+        ]
+      },
+      "totalScore": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalTimePlay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "customLevel": []
+    },
+    {
+      "id": "3",
+      "userName": "itsamxy",
+      "descrition": "",
+      "rankingHighScore": 16,
+      "completeAchievement": [
+        {
+          "id": "4",
+          "name": "หมีนักเลงคีย์บอร์ด",
+          "description": "ทำคะแนน 3 คะแนนขึ้นไปในเวลา 12 วินาที ในรอบเดียว level 1",
+          "isComplete": true
+        },
+        {
+          "id": "1",
+          "name": "หมีนักสะสมฝึกหัด",
+          "description": "ทำคะแนน 5 ขึ้นไปคะแนนในเกมเดียว ใน level 1",
+          "isComplete": true
+        },
+        {
+          "id": "5",
+          "name": "สุดยอดหมีนักเลงคีย์บอร์ด",
+          "description": "ทำคะแนน 6 คะแนนขึ้นไปในเวลา 18 วินาที ในรอบเดียว level 1",
+          "isComplete": true
+        },
+        {
+          "id": "6",
+          "name": "หมีนักเลงคีย์บอร์ดขั้นเทพ",
+          "description": "ทำคะแนน 9 คะแนนขึ้นไปในเวลา 25 วินาที ในรอบเดียว level 1",
+          "isComplete": true
+        },
+        {
+          "id": "2",
+          "name": "สุดยอดหมีนักสะสมฝึกหัด",
+          "description": "ทำคะแนน 10 ขึ้นไปคะแนนในเกมเดียว ใน level 1",
+          "isComplete": true
+        },
+        {
+          "id": "3",
+          "name": "หมีนักสะสมฝึกหัดขั้นเทพ",
+          "description": "ทำคะแนน 20 ขึ้นไปคะแนนในเกมเดียว ใน level 1",
+          "isComplete": true
+        },
+        {
+          "id": "7",
+          "name": "หมีนักสะสมมือเก๋า",
+          "description": "ทำคะแนนรวม 25 ขึ้นไปใน level 1 ",
+          "isComplete": true
+        },
+        {
+          "id": "8",
+          "name": "สุดยอดหมีนักสะสมมือเก๋า",
+          "description": "ทำคะแนนรวม 30 ขึ้นไปใน level 1 ",
+          "isComplete": true
+        },
+        {
+          "id": "9",
+          "name": "หมีนักสะสมมือเก๋าขั้นเทพ",
+          "description": "ทำคะแนนรวม 40 ขึ้นไปใน level 1 ",
+          "isComplete": true
+        },
+        {
+          "id": "10",
+          "name": "King of Level 1",
+          "description": "ทำความสำเร็จเสร็จทุกอันใน level 1",
+          "isComplete": true
+        },
+        {
+          "id": "14",
+          "name": "หมีนักเลงคีย์บอร์ด",
+          "description": "ทำคะแนน 3 คะแนนขึ้นไปในเวลา 12 วินาที ในรอบเดียว level 2",
+          "isComplete": true
+        },
+        {
+          "id": "11",
+          "name": "หมีนักสะสมฝึกหัด",
+          "description": "ทำคะแนน 5 ขึ้นไปคะแนนในเกมเดียว ใน level 2",
+          "isComplete": true
+        },
+        {
+          "id": "15",
+          "name": "สุดยอดหมีนักเลงคีย์บอร์ด",
+          "description": "ทำคะแนน 6 คะแนนขึ้นไปในเวลา 18 วินาที ในรอบเดียว level 2",
+          "isComplete": true
+        },
+        {
+          "id": "16",
+          "name": "หมีนักเลงคีย์บอร์ดขั้นเทพ",
+          "description": "ทำคะแนน 9 คะแนนขึ้นไปในเวลา 25 วินาที ในรอบเดียว level 2",
+          "isComplete": true
+        },
+        {
+          "id": "12",
+          "name": "สุดยอดหมีนักสะสมฝึกหัด",
+          "description": "ทำคะแนน 10 ขึ้นไปคะแนนในเกมเดียว ใน level 2",
+          "isComplete": true
+        },
+        {
+          "id": "13",
+          "name": "หมีนักสะสมฝึกหัดขั้นเทพ",
+          "description": "ทำคะแนน 20 ขึ้นไปคะแนนในเกมเดียว ใน level 2",
+          "isComplete": true
+        },
+        {
+          "id": "17",
+          "name": "หมีนักสะสมมือเก๋า",
+          "description": "ทำคะแนนรวม 25 ขึ้นไปใน level 2 ",
+          "isComplete": true
+        },
+        {
+          "id": "21",
+          "name": "หมีนักสะสมฝึกหัด",
+          "description": "ทำคะแนน 5 ขึ้นไปคะแนนในเกมเดียว ใน level 3",
+          "isComplete": true
+        },
+        {
+          "id": "22",
+          "name": "สุดยอดหมีนักสะสมฝึกหัด",
+          "description": "ทำคะแนน 10 ขึ้นไปคะแนนในเกมเดียว ใน level 3",
+          "isComplete": true
+        },
+        {
+          "id": "23",
+          "name": "หมีนักสะสมฝึกหัดขั้นเทพ",
+          "description": "ทำคะแนน 20 ขึ้นไปคะแนนในเกมเดียว ใน level 3",
+          "isComplete": true
+        }
+      ],
+      "profileConfig": {
+        "effectVolume": 2,
+        "musicVolume": 2,
+        "showAchievementBadge": [
+          null,
+          null,
+          null
+        ]
+      },
+      "totalScore": [
+        76,
+        30,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalTimePlay": [
+        185,
+        72,
+        75,
+        0,
+        0,
+        0,
+        0,
+        14
+      ],
+      "customLevel": [],
+      "customMode": []
+    },
+    {
+      "id": "4",
+      "userName": "User3",
+      "rankingHighScore": 0,
+      "completeAchievement": [],
+      "profileConfig": {
+        "effectVolume": 2,
+        "musicVolume": 2,
+        "showAchievementBadge": [
+          null,
+          null,
+          null
+        ]
+      },
+      "totalScore": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalTimePlay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "customLevel": []
+    },
+    {
+      "id": "5",
+      "userName": "User4",
+      "rankingHighScore": 0,
+      "completeAchievement": [],
+      "profileConfig": {
+        "effectVolume": 2,
+        "musicVolume": 2,
+        "showAchievementBadge": [
+          null,
+          null,
+          null
+        ]
+      },
+      "totalScore": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalTimePlay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "customLevel": []
+    },
+    {
+      "id": "6",
+      "userName": "SniperA",
+      "rankingHighScore": 0,
+      "completeAchievement": [],
+      "profileConfig": {
+        "effectVolume": 2,
+        "musicVolume": 2,
+        "showAchievementBadge": [
+          null,
+          null,
+          null
+        ]
+      },
+      "totalScore": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalTimePlay": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "customLevel": [],
+      "customMode": [
+        {
+          "nameLevel": "awdd",
+          "numberRange": 1,
+          "lengthExpression": 3,
+          "symbol": [
+            "+",
+            "-"
+          ],
+          "dropSpeed": 0,
+          "health": 1,
+          "endScore": null
+        },
+        {
+          "nameLevel": "awdaw",
+          "numberRange": 1,
+          "lengthExpression": 1,
+          "symbol": [
+            "+"
+          ],
+          "dropSpeed": 0,
+          "health": 1,
+          "endScore": null
+        },
+        {
+          "nameLevel": "awdawd",
+          "numberRange": 1,
+          "lengthExpression": 1,
+          "symbol": [
+            "+"
+          ],
+          "dropSpeed": 0,
+          "health": 1,
+          "endScore": null
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "userName": "test332",
+      "rankingHighScore": 1,
+      "completeAchievement": [],
+      "profileConfig": {
+        "effectVolume": 14,
+        "musicVolume": 19,
+        "showAchievementBadge": [
+          "4" , null , null
+        ]
+      },
+      "totalScore": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "totalTimePlay": [
+        31,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "customLevel": [],
+      "customMode": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('/src/assets/font/Munstar-Regular.woff'); */
+
+@layer base {
+      @font-face {
+        font-family: Fc-Candy;
+        font-weight: 400;
+        src: url('/src/assets/font/FC-Candy.woff') format("woff");
+      }
+      @font-face {
+        font-family: sunny-spells;
+        font-weight: 400;
+        src: url('/src/assets/font/sunny-spells.regular.ttf') format("woff");
+      }
+  }
+
