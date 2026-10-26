@@ -1,0 +1,83 @@
+[
+  {
+    "numberRange": 5,
+    "lengthExpression": 1,
+    "health": 5,
+    "symbol": ["+"],
+    "dropSpeed": 0,
+    "nameLevel": "1",
+    "endScore": 30
+  },
+  {
+    "numberRange": 5,
+    "lengthExpression": 1,
+    "health": 5,
+    "symbol": ["-"],
+    "dropSpeed": 0,
+    "nameLevel": "2",
+    "endScore": 30
+  },
+  {
+    "numberRange": 5,
+    "lengthExpression": 1,
+    "health": 5,
+    "symbol": ["*"],
+    "dropSpeed": 0,
+    "nameLevel": "3",
+    "endScore": 30
+  },
+  {
+    "numberRange": 10,
+    "lengthExpression": 1,
+    "health": 5,
+    "symbol": ["/"],
+    "dropSpeed": 0,
+    "nameLevel": "4",
+    "endScore": 30
+  },
+  {
+    "numberRange": 15,
+    "lengthExpression": 3,
+    "health": 5,
+    "symbol": ["+", "-"],
+    "dropSpeed": 0,
+    "nameLevel": "5",
+    "endScore": 30
+  },
+  {
+    "numberRange": 10,
+    "lengthExpression": 5,
+    "health": 5,
+    "symbol": ["*", "/"],
+    "dropSpeed": 0,
+    "nameLevel": "6",
+    "endScore": 30
+  },
+  {
+    "numberRange": 5,
+    "lengthExpression": 7,
+    "health": 3,
+    "symbol": ["+", "-", "*"],
+    "dropSpeed": 0,
+    "nameLevel": "7",
+    "endScore": 30
+  },
+  {
+    "numberRange": 5,
+    "lengthExpression": 9,
+    "health": 3,
+    "symbol": ["+", "-", "*", "/"],
+    "dropSpeed": 0,
+    "nameLevel": "8",
+    "endScore": 30
+  },
+  {
+    "numberRange": 15,
+    "lengthExpression": 3,
+    "health": 3,
+    "symbol": ["+", "-", "*"],
+    "dropSpeed": 0,
+    "nameLevel": "9",
+    "endScore": 1e500
+  }
+]
