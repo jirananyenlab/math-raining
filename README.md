@@ -1,4 +1,10 @@
 ## PROJECT2-SEC-1-SUPERIDOL
+
+## Real API backend
+
+The frontend now uses Elysia + TypeScript + Bun + Prisma + PostgreSQL instead of json-server. The backend is a separate repository: [PROJECT2-SEC-1-SUPERIDOL-BE](https://github.com/jirananyenlab/PROJECT2-SEC-1-SUPERIDOL-BE). See its README for setup, API routes, migrations, optional legacy import and tests.
+
+The local backend folder is `C:/Users/Baimon/Desktop/PROJECT2-SEC-1-SUPERIDOL-BE`. Configure its `.env`, then run `bun install`, `bun run db:generate`, `bun run db:migrate`, and `bun run dev` from that folder. Start this frontend in another terminal with `npm ci` and `npm run dev`. Frontend `VITE_BASE_URL` defaults to `http://localhost:5000`. The convenience backend scripts assume the current local folder layout; for another checkout, run backend commands directly in its own repository.
 ## สมาชิก 
 **[jirananyenlab](https://www.github.com/jirananyenlab)  65130500010 จิรนันท์ เย็นลับ (20%)**
 

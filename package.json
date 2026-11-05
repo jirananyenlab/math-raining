@@ -7,10 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "backend": "json-server --watch ./data/db.json --port 5000"
+    "backend": "bun run --cwd ../../PROJECT2-SEC-1-SUPERIDOL-BE dev",
+    "backend:install": "bun install --cwd ../../PROJECT2-SEC-1-SUPERIDOL-BE",
+    "db:generate": "bun run --cwd ../../PROJECT2-SEC-1-SUPERIDOL-BE db:generate",
+    "db:migrate": "bun run --cwd ../../PROJECT2-SEC-1-SUPERIDOL-BE db:migrate",
+    "test:backend": "bun run --cwd ../../PROJECT2-SEC-1-SUPERIDOL-BE test"
   },
   "dependencies": {
-    "json-server": "^1.0.0-alpha.23",
     "pinia": "^2.1.7",
     "vue": "^3.3.11",
     "vue-router": "^4.3.0"

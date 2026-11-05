@@ -46,7 +46,8 @@ onMounted(async () => {
   let sessionUserName = sessionStorage.getItem("userName");
   if (sessionId != null && sessionUserName != null) {
     const res = await loadUserProfile(sessionId);
-    userStore.setUserProfile(res);
+    if (res) userStore.setUserProfile(res);
+    else userStore.logout();
   }
   originalMusicVolume.value = userStore.userProfile.profileConfig.musicVolume;
   originalEffectVolume.value = userStore.userProfile.profileConfig.effectVolume;

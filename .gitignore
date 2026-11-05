@@ -28,3 +28,10 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Secrets and generated backend files
+.env
+.env.*
+!.env.example
+backend/node_modules/
+backend/coverage/

@@ -1,12 +1,11 @@
 <script setup>
-import { ref, computed, onMounted } from "vue";
+import { ref, computed } from "vue";
 import { checkName } from "../libs/checkName.js";
 import { useUserStore } from "../stores/user.js";
 import {
   authenticateUser,
   registerUser,
   loadUserProfile,
-  loadAllUsers,
 } from "../libs/fetchUtils.js";
 import toasts from "../components/toasts.vue";
 
@@ -19,17 +18,13 @@ const showRegister = ref(false);
 const showLogin = ref(true);
 const showErrorMSG = ref(false);
 const showToast = ref(false);
-const allUsers = ref([]);
-
-onMounted(async () => {
-  allUsers.value = await loadAllUsers();
-});
 
 async function Login() {
   const res = await authenticateUser(email.value, password.value);
   if (res) {
     let sessionId = sessionStorage.getItem("id");
     const res = await loadUserProfile(sessionId);
+    if (!res) { showErrorMSG.value = true; return; }
     userStore.setUserProfile(res);
     showLogin.value = false;
     emit("closeForm", false);
@@ -43,8 +38,7 @@ async function register() {
     password.value.length === 0 ||
     userName.value.length === 0 ||
     checkUserName.value !== "Name validate" ||
-    checkPass.value !== "Name validate" ||
-    allUsers.value.find((e) => e.email === email.value) !== undefined
+    checkPass.value !== "Validate"
   ) {
     showErrorMSG.value = true;
   } else {

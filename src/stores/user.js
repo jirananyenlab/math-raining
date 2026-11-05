@@ -1,5 +1,6 @@
 import { defineStore, acceptHMRUpdate } from "pinia";
 import AllAchievement from "../../data/AllAchievement.json";
+import { logoutUser } from "../libs/fetchUtils.js";
 
 export const useUserStore = defineStore("userStore", {
   state: () => ({
@@ -43,6 +44,7 @@ export const useUserStore = defineStore("userStore", {
       this.userProfile.customMode = newAllCustomMode;
     },
     logout() {
+      void logoutUser();
       this.isLoggedIn = false;
       this.userProfile = {
         profileConfig: { effectVolume: "10", musicVolume: "10" },
